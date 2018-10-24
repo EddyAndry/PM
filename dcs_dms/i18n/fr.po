@@ -1599,3 +1599,9 @@ msgstr "res.config.settings"
 msgid "You can not edit this file, it is locked."
 msgstr "Vous ne pouvez pas éditer ce fichier, il est verrouillé."
 
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_file.py:160
+#, python-format
+msgid "You can not delete this file, it is locked."
+msgstr "Vous ne pouvez pas supprimer ce fichier, il est verrouillé."
+
