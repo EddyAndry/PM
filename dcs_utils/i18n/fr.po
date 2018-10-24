@@ -1,0 +1,108 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dcs_utils
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 13:25+0000\n"
+"PO-Revision-Date: 2018-10-23 13:25+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dcs_utils
+#: model:ir.model,name:dcs_utils.model_res_groups
+msgid "Access Groups"
+msgstr "Groupes d'accès"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_child_groups
+msgid "Child Groups"
+msgstr "Groupe enfants"
+
+#. module: dcs_utils
+#: model:ir.actions.server,name:dcs_utils.cron_utils_update_groups_ir_actions_server
+#: model:ir.cron,cron_name:dcs_utils.cron_utils_update_groups
+#: model:ir.cron,name:dcs_utils.cron_utils_update_groups
+msgid "Cron job to update the Groups"
+msgstr "Tâche cron pour mettre à jour les groupes"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_display_name
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_model_display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_explicit_users
+msgid "Explicit Users"
+msgstr "Utilisateurs explicites"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_security_groups_name
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_name
+msgid "Group Name"
+msgstr "Nom du groupe"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_groups
+msgid "Groups"
+msgstr "Groupes"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_id
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_model_id
+msgid "ID"
+msgstr "ID"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups___last_update
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_model___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_security_groups_parent_left
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_parent_left
+msgid "Left Parent"
+msgstr "Parent gauche"
+
+#. module: dcs_utils
+#: model:ir.model,name:dcs_utils.model_dcs_utils_model
+msgid "MuK Base Model"
+msgstr "MuK Base Model"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_parent_group
+msgid "Parent Group"
+msgstr "Groupe parent"
+
+#. module: dcs_utils
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_security_groups_parent_right
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_parent_right
+msgid "Right Parent"
+msgstr "Parent droite"
+
+#. module: dcs_utils
+#: sql_constraint:dcs_utils.groups:0
+msgid "The name of the group must be unique!"
+msgstr "Le nom du groupe doit être unique!"
+
+#. module: dcs_utils
+#: model:ir.model,name:dcs_utils.model_res_users
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_security_groups_count_users
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_count_users
+#: model:ir.model.fields,field_description:dcs_utils.field_dcs_utils_groups_users
+msgid "Users"
+msgstr "Utilisateurs"
+
+#. module: dcs_utils
+#: model:ir.model,name:dcs_utils.model_dcs_utils_groups
+msgid "dcs_utils.groups"
+msgstr "dcs_utils.groups"
+

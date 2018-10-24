@@ -1,0 +1,1595 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dcs_dms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 11:48+0000\n"
+"PO-Revision-Date: 2018-10-23 11:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:444
+#, python-format
+msgid " couldn't be copied!"
+msgstr "Ne peut pas ètre copié!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:345
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:365
+#, python-format
+msgid " couldn't be created!"
+msgstr " Ne peut pas ètre créé!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:418
+#, python-format
+msgid " couldn't be deleted!"
+msgstr " Ne peut pas ètre supprimé!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:399
+#, python-format
+msgid " couldn't be moved!"
+msgstr " Ne peut pas ètre déplacé!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:459
+#, python-format
+msgid " couldn't be renamed!"
+msgstr " Ne peut pas ètre renommé!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:440
+#, python-format
+msgid " has been copied!"
+msgstr " a été copé!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:414
+#, python-format
+msgid " has been deleted!"
+msgstr " a été supprimé!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:395
+#, python-format
+msgid " has been moved!"
+msgstr " a été déplacé!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:456
+#, python-format
+msgid " has been renamed!"
+msgstr " a été renommé!"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid ".exe,.msi"
+msgstr ".exe,.msi"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/file/kanban/dms_file_kanban_controller.js:38
+#, python-format
+msgid "/Files"
+msgstr "/Fichier (s)"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_kanban
+msgid "<i class=\"fa fa-download\" aria-hidden=\"true\"/>\n"
+"			                                    	<span>Download</span>"
+msgstr "<i class=\"fa fa-download\" aria-hidden=\"true\"/>\n"
+"			                                    	<span>Télécharger</span>"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_kanban
+msgid "<i class=\"fa fa-external-link\" aria-hidden=\"true\"/>\n"
+"			                                    	<span>Open</span>"
+msgstr "<i class=\"fa fa-external-link\" aria-hidden=\"true\"/>\n"
+"			                                    	<span>Ouvrir</span>"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_kanban
+msgid "<i class=\"fa fa-external-link\" aria-hidden=\"true\"/>\n"
+"	                                    	<span>Open</span>"
+msgstr "<i class=\"fa fa-external-link\" aria-hidden=\"true\"/>\n"
+"	                                    	<span>Ouvrir</span>"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_kanban
+msgid "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"/>\n"
+"				                                    <span>Edit</span>"
+msgstr "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"/>\n"
+"				                                    <span>Modifier</span>"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_kanban
+msgid "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"/>\n"
+"		                                    <span>Edit</span>"
+msgstr "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"/>\n"
+"		                                    <span>Modifier</span>"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_kanban
+msgid "<i class=\"fa fa-trash-o\" aria-hidden=\"true\"/>\n"
+"				                                    <span>Delete</span>"
+msgstr "<i class=\"fa fa-trash-o\" aria-hidden=\"true\"/>\n"
+"				                                    <span>Supprimer</span>"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_kanban
+msgid "<i class=\"fa fa-trash-o\" aria-hidden=\"true\"/>\n"
+"		                                    <span>Delete</span>"
+msgstr "<i class=\"fa fa-trash-o\" aria-hidden=\"true\"/>\n"
+"		                                    <span>Supprimer</span>"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:300
+#, python-format
+msgid "<strong>Progress</strong>"
+msgstr "<strong>En cours</strong>"
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_file.py:340
+#, python-format
+msgid "A file with the same name already exists."
+msgstr "Un fichier avec le mème nom existe déja."
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_access
+msgid "Access Control"
+msgstr "contrôle d'accès"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_form
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+msgid "Access Information"
+msgstr "Informations d'accès"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:252
+#, python-format
+msgid "Action Buttons"
+msgstr "Boutons d'action"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:494
+#, python-format
+msgid "Actions"
+msgstr "Actions"
+
+#. module: dcs_dms
+#: model:res.groups,name:dcs_dms.group_dms_admin
+msgid "Administrator"
+msgstr "Administrateur"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+msgid "All Directories"
+msgstr "Tous les répertoires"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+msgid "All Files"
+msgstr "Tous les fichiers"
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_attachment_rules
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows attachments to be automatically placed in the right directory."
+msgstr "Permet aux pièces jointes d'être automatiquement placées dans le bon répertoire."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_attachment
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows attachments to be stored inside of MuK Documents."
+msgstr "Permet aux pièces jointes d'être stockées à l'intérieur de documents."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_attachment_wizard
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows documents to be used as attachments."
+msgstr "Permet aux documents d'être utilisés comme pièces jointes."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_export
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows the conversion of existing files."
+msgstr "Permet la conversion de fichiers existants."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_access
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows the creation of groups to define access rights."
+msgstr "Permet la création de groupes pour définir les droits d'accès."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_thumbnails
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows the creation of thumbnails for files."
+msgstr "Permet la création de vignettes pour les fichiers."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_widget
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows the user to use DMS documents as input for any binary field."
+msgstr "Permet à l'utilisateur d'utiliser des documents dms en tant qu'entrée pour n'importe quel champ binaire."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_archive
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows to download directories as a archive file."
+msgstr "Permet de télécharger des répertoires sous forme de fichier archive."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_attachment_automation
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Allows you to create rule templates to create attachment rules."
+msgstr "Vous permet de créer des modèles de règles pour créer des règles de pièce jointe."
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_active
+msgid "Archived"
+msgstr "Archivé"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+msgid "Archived Files"
+msgstr "Ficher archivé"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Attachment Extensions"
+msgstr "Extensions des pièces jointes"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_attachment_automation
+msgid "Attachment Rule Automation"
+msgstr "Règle d'automatisation des pièces jointes"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_attachment
+msgid "Attachment Storage Location"
+msgstr "Emplacement de stockage des pièces jointes"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_attachment_rules
+msgid "Attachment Storage Rules"
+msgstr "Règles de stockage des pièces jointes"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_attachment_wizard
+msgid "Attachment Wizard"
+msgstr "Assistant de pièce jointe"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_thumbnails
+msgid "Automatic Thumbnails"
+msgstr "Vignettes automatiques"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_data
+msgid "Base Data Model"
+msgstr "Modèle de données de base"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Base Extensions"
+msgstr "Extensions de base"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_widget
+msgid "Binary Widget Support"
+msgstr "Support de widget binaire"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_dialog.js:49
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_file_dialog.js:48
+#, python-format
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_category
+#: model:ir.ui.menu,name:dcs_dms.menu_dms_category
+msgid "Categories"
+msgstr "Categories"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_category
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_category
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+msgid "Category"
+msgstr "Catégorie"
+
+#. module: dcs_dms
+#: sql_constraint:dcs_dms.category:0
+msgid "Category name already exists!"
+msgstr "Le nom de la catégorie existe déjà!"
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_settings.py:153
+#, python-format
+msgid "Changing the save settings can cause a heavy migration process."
+msgstr "La modification des paramètres de sauvegarde peut entraîner un processus de migration lourd."
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_child_categories
+msgid "Child Categories"
+msgstr "Catégories enfant"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_directories_directory
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_directories_settings
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_directory
+msgid "Click to add a new directory."
+msgstr "Cliquez pour ajouter un nouveau répertoire."
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_file
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_files_directory
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_files_settings
+msgid "Click to add a new file."
+msgstr "Cliquez pour ajouter un nouveau fichier."
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_settings
+msgid "Click to create a new Settings object."
+msgstr "Cliquez pour créer un nouvel objet de paramètres."
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_category
+msgid "Click to create a new category."
+msgstr "Cliquez pour créer une nouvelle catégorie."
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_tag
+msgid "Click to create a new tag."
+msgstr "Cliquez pour créer une nouvelle étiquette."
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Client Extensions"
+msgstr "Extensions client"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_selection_dialog.js:50
+#, python-format
+msgid "Close"
+msgstr "Fermer"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:148
+#, python-format
+msgid "Close the selected node"
+msgstr "Fermer le noeud sélectionné"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_color
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_color
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+msgid "Color"
+msgstr "Couleur"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag_color
+msgid "Color Index"
+msgstr "Index de la couleur"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access_complete_groups
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_complete_groups
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_complete_groups
+msgid "Complete Groups"
+msgstr "groupes complets"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_complete_name
+msgid "Complete Name"
+msgstr "Nom Complet"
+
+#. module: dcs_dms
+#: model:ir.ui.menu,name:dcs_dms.cat_menu_dcs_dms_config
+msgid "Configuration"
+msgstr "Configuration"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_database_data
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_content
+msgid "Content"
+msgstr "Contenu"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:241
+#, python-format
+msgid "Context Menu"
+msgstr "Menu contextuel"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:510
+#, python-format
+msgid "Copy"
+msgstr "Copier"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_dialog_controller.js:60
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:212
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:38
+#, python-format
+msgid "Create"
+msgstr "Créer"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_create_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_database_create_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_create_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_create_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_create_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_create_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_database_create_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_create_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_create_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_create_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_custom_thumbnail
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_custom_thumbnail
+msgid "Custom Thumbnail"
+msgstr "Vignette personnalisée"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:501
+#, python-format
+msgid "Cut"
+msgstr "Couper"
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_file.py:85
+#: selection:dcs_dms.file,reference:0
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+#, python-format
+msgid "Data"
+msgstr "Donnée"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_data_database
+msgid "Data Database"
+msgstr "Base de données"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_reference
+msgid "Data Reference"
+msgstr "Référence de données"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_form
+msgid "Data Settings"
+msgstr "Paramètres de données"
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_settings.py:25
+#: selection:dcs_dms.settings,save_type:0
+#, python-format
+msgid "Database"
+msgstr "Base de données"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_data_database
+msgid "Database Data Model"
+msgstr "Modèle de données de base de données"
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_forbidden_extensions
+msgid "Defines a list of forbidden file extensions. (Example: '.exe,.msi')"
+msgstr "Définit une liste d'extensions de fichiers interdites. (exemple: '.exe, .msi')"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Defines the maximum upload size and forbidden file extensions."
+msgstr "Définit la taille maximale de téléchargement et les extensions de fichier interdites."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_max_upload_size
+msgid "Defines the maximum upload size in MB. Default (25MB)"
+msgstr "Définit la taille maximale de téléchargement en mb. défaut (25 Mo)"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:524
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:46
+#, python-format
+msgid "Delete"
+msgstr "Supprimer"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_directories_settings
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_directory
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_count_settings_directories
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_settings_directories
+#: model:ir.ui.menu,name:dcs_dms.menu_dms_directory
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_tree
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_form
+msgid "Directories"
+msgstr "Répertoires"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_directories_directory
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_directories_settings
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_directory
+msgid "Directories can be used to structure and organize\n"
+"			files directly in Odoo."
+msgstr "Les répertoires peuvent être utilisés pour structurer et organiser\n"
+"			fichiers directement dans Odoo."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_settings_top_directories
+msgid "Directories which have no parent or the user has no access right to those parents."
+msgstr "Les répertoires qui n'ont pas de parent ou l'utilisateur n'ont pas le droit d'accès à ces parents."
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:107
+#: code:addons/dcs_dms/static/src/xml/dms_documents_preview.xml:39
+#, python-format
+msgid "Directories:"
+msgstr "Répertoires:"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_info_directory_dialog.js:39
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_dialog_controller.js:66
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:218
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_directory
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_form
+#, python-format
+msgid "Directory"
+msgstr "Annuaire"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_dialog_controller.js:81
+#, python-format
+msgid "Directory couldn't be created!"
+msgstr "Le répertoire n'a pas pu être créé!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:60
+#, python-format
+msgid "Disable Refresh"
+msgstr "Désactiver l'actualisation"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_database_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_locking_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_model_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_display_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag_display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_form
+msgid "Document Setting"
+msgstr "Paramètre du document"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_tree
+msgid "Document Settings"
+msgstr "Paramètre du document"
+
+#. module: dcs_dms
+#: model:ir.actions.client,name:dcs_dms.action_dms_documents
+#: model:ir.module.category,name:dcs_dms.category_dms_security
+#: model:ir.ui.menu,name:dcs_dms.main_menu_dcs_dms
+#: model:ir.ui.menu,name:dcs_dms.menu_dms_tree_view
+msgid "Documents"
+msgstr "Documents"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:558
+#, python-format
+msgid "Download"
+msgstr "Télécharger"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_archive
+msgid "Download Directories"
+msgstr "Télécharger des répertoires"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:246
+#, python-format
+msgid "Drag and Drop"
+msgstr "Glisser et déposer"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:227
+#, python-format
+msgid "END"
+msgstr "FIN"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:183
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:42
+#, python-format
+msgid "Edit"
+msgstr "Modifier"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:204
+#, python-format
+msgid "Edit the selected node"
+msgstr "Editer le noeud sélectionné"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:64
+#, python-format
+msgid "Enable Dialog Mode"
+msgstr "Activer le mode de dialogue"
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_file
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Enables a new save option to store files into a file store."
+msgstr "Active une nouvelle option de sauvegarde pour stocker des fichiers dans un magasin de fichiers."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_lobject
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Enables a new save option to store files into large objects."
+msgstr "Active une nouvelle option de sauvegarde pour stocker des fichiers dans des objets volumineux."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_res_config_settings_module_dcs_dms_finder
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Enables the Document Finder."
+msgstr "Active le chercheur de documents."
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_category.py:73
+#, python-format
+msgid "Error ! You cannot create recursive categories."
+msgstr "Erreur ! vous ne pouvez pas créer de catégories récursives."
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_export
+msgid "Export Files"
+msgstr "Fichiers d'exportation"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_extension
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+msgid "Extension"
+msgstr "Extension"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_forbidden_extensions
+msgid "Extensions"
+msgstr "Extensions"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:199
+#, python-format
+msgid "F2"
+msgstr "F2"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_info_file_dialog.js:38
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:230
+#: model:ir.model,name:dcs_dms.model_dcs_dms_file
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+#, python-format
+msgid "File"
+msgstr "Fichier"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_file
+msgid "File Store"
+msgstr "Emplacement de fichier"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "File Upload"
+msgstr "Téléchargement de fichiers"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_name
+msgid "Filename"
+msgstr "Nom de fichier"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_file
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_files_directory
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_files_settings
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_count_files
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_files
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_count_settings_files
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_settings_files
+#: model:ir.ui.menu,name:dcs_dms.menu_dms_file
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_data_database_tree
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_form
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_tree
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_form
+msgid "Files"
+msgstr "Fichiers"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_file
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_files_directory
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_files_settings
+msgid "Files are used to save content directly in Odoo."
+msgstr "Les fichiers sont utilisés pour enregistrer le contenu directement dans Odoo."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_settings_top_files
+msgid "Files which parent aren't readable by the user."
+msgstr "Fichiers dont les parents ne sont pas lisibles par l'utilisateur."
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:111
+#: code:addons/dcs_dms/static/src/xml/dms_documents_preview.xml:43
+#, python-format
+msgid "Files:"
+msgstr "Fichiers:"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/widgets/dms_directory.js:88
+#, python-format
+msgid "Find: "
+msgstr "Trouver: "
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_finder
+msgid "Finder"
+msgstr "Chercheur"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_settings_general
+#: model:ir.ui.menu,name:dcs_dms.menu_dms_settings_general
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_search
+msgid "Group By"
+msgstr "Regrouper par"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access_groups
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_groups
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_groups
+msgid "Groups"
+msgstr "Groupes"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:213
+#, python-format
+msgid "HOME"
+msgstr "ACCUEIL"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_ir_http
+msgid "HTTP routing"
+msgstr "Routage HTTP"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_main_view.js:261
+#, python-format
+msgid "Help"
+msgstr "Aide"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+msgid "Hidden Directories"
+msgstr "Répertoires cachés"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+msgid "Hidden Files"
+msgstr "Fichiers cachés"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:72
+#, python-format
+msgid "Hide Preview"
+msgstr "Masquer l'aperçu"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_database_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_locking_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_model_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_id
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag_id
+msgid "ID"
+msgstr "ID"
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_file_active
+msgid "If a file is set to archived, it is not displayed, but still exists."
+msgstr "Si un fichier est défini sur archivé, il n'est pas affiché, mais existe toujours."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_directory_show_tree
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_file_show_tree
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_settings_show_tree
+msgid "Indicates if directories inside of this settings object are visible on document views."
+msgstr "Indique si les répertoires à l'intérieur de cet objet de paramètres sont visibles dans les vues du document."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_settings_system_locks
+msgid "Indicates if files and directories should be automatically locked while system operations take place."
+msgstr "Indique si les fichiers et les répertoires doivent être automatiquement verrouillés pendant les opérations du système."
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_directory_is_root_directory
+msgid "Indicates if the directory is a root directory. A root directory has a settings object,\n"
+"            while a directory with a set parent inherits the settings form its parent."
+msgstr "Indique si le répertoire est un répertoire racine. un répertoire racine a un objet settings,\n"
+"           alors qu'un répertoire avec un parent défini hérite des paramètres de son parent."
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:165
+#, python-format
+msgid "Info"
+msgstr "Information"
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_settings.py:152
+#, python-format
+msgid "Information"
+msgstr "Information"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:266
+#, python-format
+msgid "Issues"
+msgstr "Problèmes"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:232
+#, python-format
+msgid "Jump to the bottom"
+msgstr "Sauter au fond"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:218
+#, python-format
+msgid "Jump to the top"
+msgstr "Sauter au sommet"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:124
+#, python-format
+msgid "Keyboard Shortcuts"
+msgstr "Raccourcis clavier"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_module_dcs_dms_lobject
+msgid "Large Objects "
+msgstr "Objets volumineux "
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_database___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_locking___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_model___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings___last_update
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_write_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_database_write_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_write_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_write_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_write_uid
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:73
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:103
+#, python-format
+msgid "Last Updated by:"
+msgstr "Dernière mise à jour par:"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_write_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_data_database_write_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_write_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_write_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_write_date
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:69
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:99
+#, python-format
+msgid "Last Updated on:"
+msgstr "Dernière mise à jour le:"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_parent_left
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_parent_left
+msgid "Left Parent"
+msgstr "Parent gauche"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+msgid "Lock (Edit)"
+msgstr "verrouiller (éditer)"
+
+#. module: dcs_dms
+#: model:res.groups,name:dcs_dms.group_dms_manager
+msgid "Manager"
+msgstr "Directeur"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_custom_thumbnail_medium
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_custom_thumbnail_medium
+msgid "Medium Custom Thumbnail"
+msgstr "Vignette moyennement personnalisée"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_thumbnail_medium
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_thumbnail_medium
+msgid "Medium Thumbnail"
+msgstr "Vignette moyenne"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_form
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+msgid "Meta Information"
+msgstr "Méta-information"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+msgid "Mimetype"
+msgstr "Type de mime"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:61
+#, python-format
+msgid "Mimetype:"
+msgstr "Type de mime:"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:176
+#, python-format
+msgid "Move down one node"
+msgstr "Descendre d'un noeud"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:134
+#, python-format
+msgid "Move up one node"
+msgstr "Monter d'un noeud"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_access
+msgid "MuK Access Model"
+msgstr "Dcs Access Model"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_model
+msgid "MuK Document Base Model"
+msgstr "Dcs Document Base Model"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_category
+msgid "MuK Document Category"
+msgstr "Dcs Document Category"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_locking
+msgid "MuK Document Locking Model"
+msgstr "Dcs Document Locking Model"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_tag
+msgid "MuK Document Tag"
+msgstr "Dcs Document Tag"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:261
+#, python-format
+msgid "MuK Documents 2.0"
+msgstr "Dcs Documents 2.0"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_directory
+msgid "MuK Documents Directory"
+msgstr "Dcs Documents Directory"
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_dcs_dms_settings
+msgid "MuK Documents Settings"
+msgstr "Dcs Documents Settings"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_name
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_tag_name
+msgid "Name"
+msgstr "Nom"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:57
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:91
+#: code:addons/dcs_dms/static/src/xml/dms_documents_preview.xml:35
+#, python-format
+msgid "Name:"
+msgstr "Nom:"
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/controllers/backend.py:29
+#, python-format
+msgid "New Directory"
+msgstr "Nouveau répertoire"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_main_view.js:254
+#, python-format
+msgid "Ok"
+msgstr "Ok"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:174
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:34
+#, python-format
+msgid "Open"
+msgstr "Ouvrir"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/widgets/dms_directory.js:77
+#, python-format
+msgid "Open Finder..."
+msgstr "Ouvrir le chercheur..."
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:190
+#, python-format
+msgid "Open all nodes"
+msgstr "Ouvrir tous les nœuds"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:162
+#, python-format
+msgid "Open the selected node"
+msgstr "Ouvrir le noeud sélectionné"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_parent_category
+msgid "Parent Category"
+msgstr "Catégorie mère"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_parent_directory
+msgid "Parent Directory"
+msgstr "Dossier Parent"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:541
+#, python-format
+msgid "Paste"
+msgstr "Coller"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_path
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_relational_path
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_path
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_relational_path
+msgid "Path"
+msgstr "Chemin"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:264
+#, python-format
+msgid "Project"
+msgstr "Projet"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:58
+#, python-format
+msgid "Refresh"
+msgstr "Actualiser"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_base_controller.js:482
+#, python-format
+msgid "Rename"
+msgstr "Renommer"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:249
+#, python-format
+msgid "Replace"
+msgstr "Remplacer"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_file_dialog.js:43
+#, python-format
+msgid "Replace Content"
+msgstr "Remplacer le contenu"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_file_dialog.js:38
+#, python-format
+msgid "Replace File"
+msgstr "Remplacer le fichier"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_file_dialog.js:52
+#, python-format
+msgid "Replace File: "
+msgstr "Remplacer le fichier: "
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_category_parent_right
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_parent_right
+msgid "Right Parent"
+msgstr "Parent droite"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_root_directories
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_form
+msgid "Root Directories"
+msgstr "Répertoires racine"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_is_root_directory
+msgid "Root Directory"
+msgstr "Répertoire racine"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_dialog.js:44
+#, python-format
+msgid "Save"
+msgstr "Sauvegarder"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_form
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_save_type
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_search
+msgid "Save Type"
+msgstr "Tye de sauvegarde"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:24
+#, python-format
+msgid "Search..."
+msgstr "Recherche..."
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_selection_dialog.js:36
+#, python-format
+msgid "Select"
+msgstr "Sélectionner"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_settings
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_settings
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_settings
+#: model:ir.ui.menu,name:dcs_dms.menu_dms_settings
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_form
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+msgid "Settings"
+msgstr "Configuration"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_settings
+msgid "Settings are used to configure the Documents."
+msgstr "Les paramètres sont utilisés pour configurer les documents"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:54
+#, python-format
+msgid "Show Help"
+msgstr "Montrer les aides"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:70
+#, python-format
+msgid "Show Preview"
+msgstr "Montrer l'aperçu"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_show_tree
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_show_tree
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_show_tree
+msgid "Show Structure"
+msgstr "Montrer la structure"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_size
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_size
+#: model:ir.model.fields,field_description:dcs_dms.field_res_config_settings_max_upload_size
+msgid "Size"
+msgstr "Taille"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:65
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:95
+#, python-format
+msgid "Size:"
+msgstr "Taille:"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_custom_thumbnail_small
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_custom_thumbnail_small
+msgid "Small Custom Thumbnail"
+msgstr "Petite vignette personnalisée"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_thumbnail_small
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_thumbnail_small
+msgid "Small Thumbnail"
+msgstr "Petite vignette"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_starred
+msgid "Starred"
+msgstr "Favoris"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+msgid "Starred Directories"
+msgstr "Repértoires favoris"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_user_stars
+msgid "Stars"
+msgstr "Favoris"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.res_config_settings_view_form
+msgid "Storage Extensions"
+msgstr "Emplacement des extensions"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_directories_directory
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_child_directories
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_count_directories
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_form
+msgid "Subdirectories"
+msgstr "Sous-répertoires"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access_suspend_security_create
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_suspend_security_create
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_suspend_security_create
+msgid "Suspend Security for Create"
+msgstr "Suspendre la sécurité pour la création"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access_suspend_security_read
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_suspend_security_read
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_suspend_security_read
+msgid "Suspend Security for Read"
+msgstr "Suspendre la sécuriré pour la lecture"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access_suspend_security_unlink
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_suspend_security_unlink
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_suspend_security_unlink
+msgid "Suspend Security for Unlink"
+msgstr "Suspendre la sécurité pour supprimer"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_access_suspend_security_write
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_suspend_security_write
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_suspend_security_write
+msgid "Suspend Security for Write"
+msgstr "Suspendre la sécurité pour l'écriture"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_system_locks
+msgid "System Locks"
+msgstr "Vérouillage du système"
+
+#. module: dcs_dms
+#: sql_constraint:dcs_dms.tag:0
+msgid "Tag name already exists!"
+msgstr "Le nom de tag existe déjà!"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,name:dcs_dms.action_dms_tag
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_tags
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_tags
+#: model:ir.ui.menu,name:dcs_dms.menu_dms_tag
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_category_tree
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_tag_tree
+msgid "Tags"
+msgstr "Étiquettes"
+
+#. module: dcs_dms
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_category
+#: model:ir.actions.act_window,help:dcs_dms.action_dms_tag
+msgid "Tags are used to categorize Documents."
+msgstr "Les étiquettes sont utilisées pour classer les documents."
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_form
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+msgid "Tags..."
+msgstr "Étiquettes..."
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+msgid "Technical Information"
+msgstr "Informations techniques"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:253
+#, python-format
+msgid "The action button at the top of the view can be used to open,\n"
+"						create, edit or delete a node."
+msgstr "Le bouton d'action en haut de la vue peut être utilisé pour ouvrir,\n"
+"						créer, éditer ou supprimer un nœud."
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/models/dms_file.py:347
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_dialog.js:83
+#, python-format
+msgid "The file has a forbidden file extension."
+msgstr "Le fichier a une extension de fichier interdite."
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_file.py:336
+#, python-format
+msgid "The file name is invalid."
+msgstr "Le nom de fichier n'est pas valide."
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_file.py:353
+#, python-format
+msgid "The maximum upload size is %s MB)."
+msgstr "La taille maximale de téléchargement est %s mb)."
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:155
+#, python-format
+msgid "The records couldn't be deleted!"
+msgstr "Les enregistrements n'ont pas pu être supprimés!"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:151
+#, python-format
+msgid "The records have been deleted!"
+msgstr "Les enregistrements ont été supprimés!"
+
+#. module: dcs_dms
+#: model:ir.model.fields,help:dcs_dms.field_dcs_dms_settings_save_type
+msgid "The save type is used to determine how a file is saved to the system."
+msgstr "Le type de sauvegarde est utilisé pour déterminer comment un fichier est enregistré sur le système."
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_thumbnail
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_thumbnail
+msgid "Thumbnail"
+msgstr "Vignette"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_controls.xml:26
+#, python-format
+msgid "Tip: An underscore _ in the pattern matches any single character. A percent sign % matches any string of zero or more characters."
+msgstr "Conseil: un trait de soulignement _ dans le motif correspond à n'importe quel caractère. un signe de % correspond à toute chaîne de zéro caractère ou plus."
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_top_directories
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_form
+msgid "Top Directories"
+msgstr "Meilleurs répertoires"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_is_top_directory
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_is_top_file
+msgid "Top Directory"
+msgstr "Premier répertoire"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_settings_top_files
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_settings_form
+msgid "Top Files"
+msgstr "Meilleurs fichiers"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_count_total_files
+msgid "Total Files"
+msgstr "Total des fichiers"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_directory_count_total_directories
+msgid "Total Subdirectories"
+msgstr "Total des sous-répertoires"
+
+#. module: dcs_dms
+#: model:ir.model.fields,field_description:dcs_dms.field_dcs_dms_file_mimetype
+msgid "Type"
+msgstr "Type"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
+msgid "Unlock (Release)"
+msgstr "Déverrouiller"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_directory_kanban
+#: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_kanban
+msgid "Unread Messages"
+msgstr "Messages non lus"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_files_dialog.js:39
+#: code:addons/dcs_dms/static/src/js/views/documents/dms_documents_view_controller.js:200
+#, python-format
+msgid "Upload"
+msgstr "Télécharger"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/js/chrome/dms_drop_files_dialog.js:38
+#, python-format
+msgid "Upload Files into: "
+msgstr "Télécharger des fichiers dans: "
+
+#. module: dcs_dms
+#: model:res.groups,name:dcs_dms.group_dms_user
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_directory
+msgid "Visible Directories"
+msgstr "répertoires visibles"
+
+#. module: dcs_dms
+#: model:ir.ui.view,arch_db:dcs_dms.search_dms_file
+msgid "Visible Files"
+msgstr "Fichier visible"
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:247
+#, python-format
+msgid "You can change the structure by moving nodes. It is also possible \n"
+"						to create new nodes by dragging files and even entire folder\n"
+"						structures on the view."
+msgstr "Vous pouvez modifier la structure en déplaçant des nœuds. c'est aussi possible de\n"
+"						créer de nouveaux noeuds en faisant glisser des fichiers et même un dossier entier\n"
+"						structuré sur la vue."
+
+#. module: dcs_dms
+#. openerp-web
+#: code:addons/dcs_dms/static/src/xml/dms_documents_dialogs.xml:242
+#, python-format
+msgid "You can open a context menu by right-clicking on any node. This\n"
+"						contains further options for interacting with the node."
+msgstr "Vous pouvez ouvrir un menu contextuel en cliquant avec le bouton droit de la souris sur n'importe quel nœud.\n"
+"						cela contient d'autres options pour interagir avec le nœud."
+
+#. module: dcs_dms
+#: model:ir.model,name:dcs_dms.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+

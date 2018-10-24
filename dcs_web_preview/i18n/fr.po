@@ -1,0 +1,256 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dcs_web_preview
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 13:28+0000\n"
+"PO-Revision-Date: 2018-10-23 13:28+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_content.xml:69
+#, python-format
+msgid "Download"
+msgstr "Télécharger"
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support audio"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge l'audio"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_audio
+msgid "Extendes the Preview Dialog to support audio."
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge l'audio."
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support csv files"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers csv"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_csv
+msgid "Extendes the Preview Dialog to support csv files."
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers csv."
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support image files"
+msgstr "Extension de la boîte de dialogue d'aperçu pour prendre en charge les fichiers image"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_image
+msgid "Extendes the Preview Dialog to support image files."
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers image."
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support mails"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les mails"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_mail
+msgid "Extendes the Preview Dialog to support mails."
+msgstr "Extension de la boîte de dialogue d'aperçu pour prendre en charge les mails"
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support markdown files"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers de démarques"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_markdown
+msgid "Extendes the Preview Dialog to support markdown files."
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers de démarques."
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support office files"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers Office"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_msoffice
+msgid "Extendes the Preview Dialog to support office files."
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers Office."
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support reStructuredText"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge le texte restructuré"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_rst
+msgid "Extendes the Preview Dialog to support reStructuredText."
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge restructuredtext."
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support text files"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers texte"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_text
+msgid "Extendes the Preview Dialog to support text files."
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers texte."
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support vector files"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers vectoriels"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_vector
+msgid "Extendes the Preview Dialog to support vector files."
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers vectoriels."
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Extendes the Preview Dialog to support video files"
+msgstr "Extension de la boîte de dialogue de prévisualisation pour prendre en charge les fichiers vidéo"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,help:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_video
+msgid "Extendes the Preview Dialog to support video files."
+msgstr "Etendre la boîte de dialogue de prévisualisation pour prendre en charge les fichiers vidéo."
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_content.xml:62
+#, python-format
+msgid "Extension:"
+msgstr "Extension:"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_content.xml:54
+#, python-format
+msgid "Filename:"
+msgstr "Nom du fichier:"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_content.xml:43
+#, python-format
+msgid "Odoo App Store"
+msgstr "Odoo App Store"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_dialog.xml:35
+#, python-format
+msgid "Ok"
+msgstr "Ok"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/js/preview_dialog.js:44
+#, python-format
+msgid "Preview"
+msgstr "Aperçu"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_audio
+msgid "Preview Audio"
+msgstr "Aperçu Audio"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_csv
+msgid "Preview CSV"
+msgstr "Aperçu csv"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_image
+msgid "Preview Image"
+msgstr "Aperçu d'image"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_msoffice
+msgid "Preview MS Office"
+msgstr "Aperçu MS Office"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_mail
+msgid "Preview Mail"
+msgstr "Aperçu du courrier"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_markdown
+msgid "Preview Markdown"
+msgstr "Aperçu du Markdown"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_rst
+msgid "Preview ReStructuredText"
+msgstr "Aperçu text restructuré"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_text
+msgid "Preview Text"
+msgstr "Aperçu du texte"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_vector
+msgid "Preview Vector"
+msgstr "Vecteur de prévisualisation"
+
+#. module: dcs_web_preview
+#: model:ir.model.fields,field_description:dcs_web_preview.field_res_config_settings_module_dcs_web_preview_video
+msgid "Preview Video"
+msgstr "Aperçu vidéo"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_content.xml:41
+#, python-format
+msgid "This file type is currently not supported. By installing further extension via the"
+msgstr "Ce type de fichier n'est actuellement pas pris en charge. en installant une extension supplémentaire via le"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_content.xml:58
+#, python-format
+msgid "Type:"
+msgstr "Type:"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/js/preview_generator.js:52
+#: code:addons/dcs_web_preview/static/src/js/preview_generator.js:53
+#: code:addons/dcs_web_preview/static/src/js/preview_generator.js:54
+#, python-format
+msgid "Unknown"
+msgstr "Inconnu"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_content.xml:37
+#, python-format
+msgid "Unsupported File Extension"
+msgstr "Extension de fichier non supportée"
+
+#. module: dcs_web_preview
+#: model:ir.ui.view,arch_db:dcs_web_preview.res_config_settings_view_form
+msgid "Web Previews"
+msgstr "Aperçus Web"
+
+#. module: dcs_web_preview
+#. openerp-web
+#: code:addons/dcs_web_preview/static/src/xml/preview_content.xml:43
+#, python-format
+msgid "it is possible to improve the Preview."
+msgstr "Il est possible d'améliorer l'aperçu."
+
+#. module: dcs_web_preview
+#: model:ir.model,name:dcs_web_preview.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+

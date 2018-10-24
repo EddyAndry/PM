@@ -1,0 +1,332 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dcs_security
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 13:11+0000\n"
+"PO-Revision-Date: 2018-10-23 13:11+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dcs_security
+#: model:ir.actions.act_window,name:dcs_security.action_security_groups
+#: model:ir.model,name:dcs_security.model_dcs_security_groups
+#: model:ir.model,name:dcs_security.model_res_groups
+#: model:ir.ui.menu,name:dcs_security.menu_security_groups
+msgid "Access Groups"
+msgstr "Groupes d'accès"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_child_groups
+#: model:ir.ui.view,arch_db:dcs_security.view_security_groups_form
+msgid "Child Groups"
+msgstr "Groupes enfants"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_complete_groups
+msgid "Complete Groups"
+msgstr "groupes complets"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_access_permission_create
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_directory_permission_create
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_file_permission_create
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_permission_create
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_permission_create
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_perm_create
+msgid "Create Access"
+msgstr "Droit de création"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_create_uid
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_create_date
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_access_permission_unlink
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_directory_permission_unlink
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_file_permission_unlink
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_permission_unlink
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_permission_unlink
+msgid "Delete Access"
+msgstr "Droit de suppression"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_display_name
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_display_name
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_display_name
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_display_name
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_locking_display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_directory_editor
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_file_editor
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_locking_editor
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_locking_editor
+msgid "Editor"
+msgstr "Editeur"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_explicit_users
+#: model:ir.ui.view,arch_db:dcs_security.view_security_groups_form
+msgid "Explicit Users"
+msgstr "Utilisateurs explicites"
+
+#. module: dcs_security
+#: model:ir.ui.view,arch_db:dcs_security.view_security_groups_form
+msgid "Group"
+msgstr "Groupe"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_groups
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_groups
+#: model:ir.model.fields,field_description:dcs_security.field_res_groups_security_groups
+#: model:ir.model.fields,field_description:dcs_security.field_res_users_security_groups
+#: model:ir.ui.view,arch_db:dcs_security.view_security_groups_form
+#: model:ir.ui.view,arch_db:dcs_security.view_security_groups_tree
+msgid "Groups"
+msgstr "Groupes"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_id
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_id
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_id
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_id
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_locking_id
+msgid "ID"
+msgstr "ID"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access___last_update
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups___last_update
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups___last_update
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock___last_update
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_locking___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_write_uid
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_write_date
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: dcs_security
+#: model:ir.model,name:dcs_security.model_dcs_security_lock
+msgid "Lock"
+msgstr "Verrouillage"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_directory_locked
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_directory_locked_state
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_file_locked
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_file_locked_state
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_locking_locked
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_locking_locked_state
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_locking_locked
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_locking_locked_state
+msgid "Locked"
+msgstr "verrouillé"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_directory_locked_by
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_file_locked_by
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_locking_locked_by
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_locked_by
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_locked_by_ref
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_locking_locked_by
+msgid "Locked by"
+msgstr "Locked by"
+
+#. module: dcs_security
+#: model:ir.ui.view,arch_db:dcs_security.view_security_lock_tree
+msgid "Locks"
+msgstr "Verrouillage"
+
+#. module: dcs_security
+#: model:ir.model,name:dcs_security.model_dcs_security_access_groups
+msgid "MuK Access Groups Model"
+msgstr "MuK Access Groups Model"
+
+#. module: dcs_security
+#: model:ir.model,name:dcs_security.model_dcs_security_access
+msgid "MuK Access Model"
+msgstr "Dcs Access Model"
+
+#. module: dcs_security
+#: model:ir.model,name:dcs_security.model_dcs_security_locking
+msgid "MuK Locking Model"
+msgstr "MuK Locking Model"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_name
+msgid "Name"
+msgstr "Nom"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_operation
+msgid "Operation"
+msgstr "Opération"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_parent_group
+msgid "Parent Group"
+msgstr "Groupe parent"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_access_permission_read
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_directory_permission_read
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_file_permission_read
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_permission_read
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_permission_read
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_perm_read
+msgid "Read Access"
+msgstr "Accès en lecture"
+
+#. module: dcs_security
+#: model:ir.actions.act_window,name:dcs_security.action_security_lock
+#: model:ir.ui.menu,name:dcs_security.menu_security_lock
+msgid "Record Locks"
+msgstr "Verrouillage d'enregistrement"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_lock_ref
+msgid "Reference"
+msgstr "Référence"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_lock_ref_id
+msgid "Reference ID"
+msgstr "ID de référence"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_lock_ref_model
+msgid "Reference Model"
+msgstr "Modèle de référence"
+
+#. module: dcs_security
+#: model:ir.ui.view,arch_db:dcs_security.view_security_groups_form
+msgid "Settings"
+msgstr "Configuration"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_suspend_security_create
+msgid "Suspend Security for Create"
+msgstr "Suspendre la sécurité pour la création"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_suspend_security_read
+msgid "Suspend Security for Read"
+msgstr "Suspendre la sécuriré pour la lecture"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_suspend_security_unlink
+msgid "Suspend Security for Unlink"
+msgstr "Suspendre la sécurité pour supprimer"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_suspend_security_write
+msgid "Suspend Security for Write"
+msgstr "Suspendre la sécurité pour l'écriture"
+
+#. module: dcs_security
+#: code:addons/dcs_security/models/locking.py:123
+#, python-format
+msgid "The record (%s[%s]) is locked by a user, so it can't be changes or deleted."
+msgstr "L'enregistrement (%s [%s]) est verrouillé par un utilisateur, il ne peut donc être ni modifié ni supprimé."
+
+#. module: dcs_security
+#: code:addons/dcs_security/models/locking.py:134
+#, python-format
+msgid "The record (%s[%s]) is locked, so it can't be changes or deleted."
+msgstr "L'enregistrement (%s [%s]) est verrouillé, il ne peut donc pas être modifié ni supprimé."
+
+#. module: dcs_security
+#: code:addons/dcs_security/models/locking.py:65
+#, python-format
+msgid "The record (%s[%s]) is locked, so it can't be locked again."
+msgstr "L'enregistrement (%s [%s]) est verrouillé, il ne peut donc plus être verrouillé."
+
+#. module: dcs_security
+#: code:addons/dcs_security/models/locking.py:143
+#: code:addons/dcs_security/models/locking.py:157
+#, python-format
+msgid "The record is already locked by another user. (%s)"
+msgstr "L'enregistrement est déjà verrouillé par un autre utilisateur. (%s)"
+
+#. module: dcs_security
+#: code:addons/dcs_security/models/locking.py:145
+#: code:addons/dcs_security/models/locking.py:159
+#, python-format
+msgid "The record is already locked."
+msgstr "L'enregistrement est déjà verrouillé."
+
+#. module: dcs_security
+#: code:addons/dcs_security/models/access.py:68
+#: code:addons/dcs_security/models/access.py:72
+#: code:addons/dcs_security/models/access_groups.py:190
+#: code:addons/dcs_security/models/access_groups.py:199
+#: code:addons/dcs_security/models/access_groups.py:203
+#, python-format
+msgid "This operation is forbidden!"
+msgstr "Cette opération est interdite!"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_lock_token
+msgid "Token"
+msgstr "Token"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_perm_unlink
+msgid "Unlink Access"
+msgstr "Accès en suppréssion"
+
+#. module: dcs_security
+#: model:ir.model,name:dcs_security.model_res_users
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_users
+#: model:ir.ui.view,arch_db:dcs_security.view_security_groups_form
+msgid "Users"
+msgstr "Utilisateurs"
+
+#. module: dcs_security
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_access_permission_write
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_directory_permission_write
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_dms_file_permission_write
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_groups_permission_write
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_access_permission_write
+#: model:ir.model.fields,field_description:dcs_security.field_dcs_security_groups_perm_write
+msgid "Write Access"
+msgstr "Accès en écriture"
+
+#. module: dcs_security
+#: model:ir.model,name:dcs_security.model_ir_model_access
+msgid "ir.model.access"
+msgstr "ir.model.access"
+
+#. module: dcs_security
+#: model:ir.model,name:dcs_security.model_ir_rule
+msgid "ir.rule"
+msgstr "ir.rule"
+

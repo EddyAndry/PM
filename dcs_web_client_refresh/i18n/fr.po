@@ -1,0 +1,87 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dcs_web_client_refresh
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 13:44+0000\n"
+"PO-Revision-Date: 2018-10-23 13:44+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dcs_web_client_refresh
+#: model:ir.actions.act_window,name:dcs_web_client_refresh.action_client_refresh_actions
+#: model:ir.ui.menu,name:dcs_web_client_refresh.menu_client_refresh_actions
+msgid "Automated Refresh"
+msgstr "Rafraîchissement automatique"
+
+#. module: dcs_web_client_refresh
+#: model:ir.ui.view,arch_db:dcs_web_client_refresh.view_client_refresh_actions_tree
+msgid "Automations"
+msgstr "Automatisations"
+
+#. module: dcs_web_client_refresh
+#: model:ir.actions.act_window,help:dcs_web_client_refresh.action_client_refresh_actions
+msgid "Click to setup a new automated refresh action."
+msgstr "Cliquez pour configurer une nouvelle action d'actualisation automatisée."
+
+#. module: dcs_web_client_refresh
+#: model:ir.ui.view,arch_db:dcs_web_client_refresh.res_config_settings_view_form
+msgid "Configure Actions"
+msgstr "Configurer les actions"
+
+#. module: dcs_web_client_refresh
+#: model:ir.model.fields,field_description:dcs_web_client_refresh.field_res_config_settings_refresh_delay
+#: model:ir.ui.view,arch_db:dcs_web_client_refresh.res_config_settings_view_form
+msgid "Delay"
+msgstr "Retard"
+
+#. module: dcs_web_client_refresh
+#: model:ir.model.fields,help:dcs_web_client_refresh.field_res_config_settings_refresh_delay
+msgid "Prevents multiple executions of refresh in a certain timeframe to avoid the view from being\n"
+"            reloaded too often. For example, a delay of 1000 (ms) would mean that the view cannot be\n"
+"            reloaded more than once a second."
+msgstr "Empêche plusieurs exécutions d'actualisation dans un laps de temps donné pour éviter que la vue ne soit\n"
+"            rechargé trop souvent. Par exemple, un délai de 1000 (ms) signifierait que la vue ne peut pas être\n"
+"            rechargé plus d'une fois par seconde."
+
+#. module: dcs_web_client_refresh
+#: model:base.automation,name:dcs_web_client_refresh.base_automation_refresh_partner_on_create
+#: model:ir.actions.server,name:dcs_web_client_refresh.base_automation_refresh_partner_on_create_ir_actions_server
+msgid "Refresh Partner on Creation"
+msgstr "rafraîchit le partenaire lors de la création"
+
+#. module: dcs_web_client_refresh
+#: model:base.automation,name:dcs_web_client_refresh.base_automation_refresh_partner_on_unlink
+#: model:ir.actions.server,name:dcs_web_client_refresh.base_automation_refresh_partner_on_unlink_ir_actions_server
+msgid "Refresh Partner on Deletion"
+msgstr "rafraîchit le partenaire lors de la suppression"
+
+#. module: dcs_web_client_refresh
+#: model:base.automation,name:dcs_web_client_refresh.base_automation_refresh_partner_on_write
+#: model:ir.actions.server,name:dcs_web_client_refresh.base_automation_refresh_partner_on_write_ir_actions_server
+msgid "Refresh Partner on Update"
+msgstr "rafraîchit le partenaire lors de la mise à jour"
+
+#. module: dcs_web_client_refresh
+#: model:base.automation,name:dcs_web_client_refresh.base_automation_refresh_partner_on_create_or_write
+#: model:ir.actions.server,name:dcs_web_client_refresh.base_automation_refresh_partner_on_create_or_write_ir_actions_server
+msgid "Refresh Users on Creation/Update"
+msgstr "rafraîchit les utilisateurs lors de la Création/Mise à jour"
+
+#. module: dcs_web_client_refresh
+#: model:ir.ui.view,arch_db:dcs_web_client_refresh.view_client_refresh_actions_form
+msgid "e.g. Refresh Users on Create"
+msgstr "Par exemple: rafraîchit les utilisateurs lors de la création"
+
+#. module: dcs_web_client_refresh
+#: model:ir.model,name:dcs_web_client_refresh.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+

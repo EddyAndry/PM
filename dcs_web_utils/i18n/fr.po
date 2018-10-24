@@ -1,0 +1,45 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dcs_web_utils
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 14:00+0000\n"
+"PO-Revision-Date: 2018-10-23 14:00+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dcs_web_utils
+#. openerp-web
+#: code:addons/dcs_web_utils/static/src/js/widgets.js:169
+#, python-format
+msgid "A model have to be set before searching!"
+msgstr "Un modèle doit être défini avant de chercher!"
+
+#. module: dcs_web_utils
+#. openerp-web
+#: code:addons/dcs_web_utils/static/src/js/widgets.js:147
+#, python-format
+msgid "Search More..."
+msgstr "Recherche encore..."
+
+#. module: dcs_web_utils
+#. openerp-web
+#: code:addons/dcs_web_utils/static/src/js/widgets.js:180
+#, python-format
+msgid "Search: "
+msgstr "Recherche: "
+
+#. module: dcs_web_utils
+#. openerp-web
+#: code:addons/dcs_web_utils/static/src/js/widgets.js:54
+#, python-format
+msgid "The type of the field '%s' must be a integer field with a model attribute."
+msgstr "Le type du champ '%s' doit être un champ entier avec un attribut de modèle."
+

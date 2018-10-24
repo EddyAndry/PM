@@ -1,0 +1,10 @@
+dcs_automation_extension/models/__pycache__/
+dcs_autovacuum/models/__pycache__/
+dcs_dms/models/__pycache__/
+dcs_security/models/__pycache__/
+dcs_utils/models/__pycache__/
+dcs_web_client/models/__pycache__/
+dcs_web_client_refresh/models/__pycache__/
+dcs_web_preview/models/__pycache__/
+dcs_web_utils/models/__pycache__/
+
