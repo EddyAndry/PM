@@ -997,7 +997,7 @@ msgstr "Parent gauche"
 #. module: dcs_dms
 #: model:ir.ui.view,arch_db:dcs_dms.view_dms_file_form
 msgid "Lock (Edit)"
-msgstr "verrouiller (éditer)"
+msgstr "verrouiller (modification)"
 
 #. module: dcs_dms
 #: model:res.groups,name:dcs_dms.group_dms_manager
@@ -1592,4 +1592,10 @@ msgstr "Vous pouvez ouvrir un menu contextuel en cliquant avec le bouton droit d
 #: model:ir.model,name:dcs_dms.model_res_config_settings
 msgid "res.config.settings"
 msgstr "res.config.settings"
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_file.py:154
+#, python-format
+msgid "You can not edit this file, it is locked."
+msgstr "Vous ne pouvez pas éditer ce fichier, il est verrouillé."
 

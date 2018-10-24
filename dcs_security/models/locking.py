@@ -33,6 +33,7 @@ class BaseModelLocking(models.AbstractModel):
     locked_by = fields.Many2one(
         related='locked.locked_by_ref',
         comodel_name='res.users',
+        readonly=True,
         string="Locked by")
     
     editor = fields.Boolean(

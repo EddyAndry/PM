@@ -149,6 +149,12 @@ class File(models.Model):
     # ----------------------------------------------------------
 
     @api.multi
+    def write(self, vals):
+        if self.locked_by:
+            raise ValidationError(_('You can not edit this file, it is locked.'))
+        return super(File, self).write(vals)
+
+    @api.multi
     def notify_change(self, values, *largs, **kwargs):
         super(File, self).notify_change(values, *largs, **kwargs)
         if "save_type" in values:

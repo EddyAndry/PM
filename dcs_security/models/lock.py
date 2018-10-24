@@ -18,6 +18,7 @@ class Lock(models.Model):
 
     locked_by = fields.Char(
         string="Locked by",
+        readonly=True,
         required=True)
     
     locked_by_ref = fields.Many2one(
