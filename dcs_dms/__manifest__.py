@@ -22,6 +22,7 @@
         "dcs_web_client_refresh",
         "dcs_web_preview_audio",
         "dcs_web_preview_image",
+        "dcs_web_preview_video",
     ],
     "data": [
         "security/dms_security.xml",
