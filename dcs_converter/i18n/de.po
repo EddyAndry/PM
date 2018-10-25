@@ -1,0 +1,678 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dcs_converter
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 19:15+0000\n"
+"PO-Revision-Date: 2018-05-17 21:18+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: de\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "BIB"
+msgstr "BIB"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "BMP"
+msgstr "BMP"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "CSV"
+msgstr "CSV"
+
+#. module: dcs_converter
+#: model:ir.ui.view,arch_db:dcs_converter.view_converter_convert_form
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_checksum
+msgid "Checksum"
+msgstr "Checksum"
+
+#. module: dcs_converter
+#: model:ir.ui.view,arch_db:dcs_converter.view_converter_convert_form
+msgid "Close"
+msgstr "Schließen"
+
+#. module: dcs_converter
+#: model:ir.ui.view,arch_db:dcs_converter.view_converter_convert_form
+msgid "Conversion Complete"
+msgstr "Konvertierung abgeschlossen"
+
+#. module: dcs_converter
+#: model:ir.ui.view,arch_db:dcs_converter.view_converter_convert_form
+msgid "Convert"
+msgstr "Konvertieren"
+
+#. module: dcs_converter
+#: code:addons/dcs_converter/wizards/convert.py:86
+#: model:ir.actions.act_window,name:dcs_converter.action_converter_convert
+#: model:ir.ui.view,arch_db:dcs_converter.view_converter_convert_form
+#, python-format
+msgid "Convert File"
+msgstr "Konverter Datei"
+
+#. module: dcs_converter
+#: model:ir.model,name:dcs_converter.model_dcs_converter_converter
+msgid "Converter"
+msgstr "Konverter"
+
+#. module: dcs_converter
+#: model:ir.model,name:dcs_converter.model_dcs_converter_store
+msgid "Converter Store"
+msgstr "Konverter Speicher"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_create_uid
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_create_date
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "DBF"
+msgstr "DBF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "DIF"
+msgstr "DIF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "DOC"
+msgstr "DOC"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "DOC6"
+msgstr "DOC6"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "DOC95"
+msgstr "DOC95"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "DOCBOOK"
+msgstr "DOCBOOK"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "DOCX"
+msgstr "DOCX"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "DOCX7"
+msgstr "DOCX7"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_content
+msgid "Data"
+msgstr "Persönliche Daten"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_display_name
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_converter_display_name
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,state:0
+msgid "Download"
+msgstr "Download"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "EMF"
+msgstr "EMF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "EPS"
+msgstr "EPS"
+
+#. module: dcs_converter
+#: model:ir.model.fields,help:dcs_converter.field_dcs_converter_convert_type
+msgid "Either a binary file or an url can be converted"
+msgstr "Es kann entweder eine Binärdatei oder eine URL konvertiert werden."
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,state:0
+msgid "Export"
+msgstr "Export"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "FODG"
+msgstr "FODG"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "FODP"
+msgstr "FODP"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "FODS"
+msgstr "FODS"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "FODT"
+msgstr "FODT"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_input_binary
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_output_binary
+#: selection:dcs_converter.convert,type:0
+msgid "File"
+msgstr "Datei"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_input_name
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_output_name
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_content_fname
+msgid "Filename"
+msgstr "Dateiname"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_format
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_format
+msgid "Format"
+msgstr "Format"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "GIF"
+msgstr "GIF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "HTML"
+msgstr "HTML"
+
+#. module: dcs_converter
+#: model:ir.ui.view,arch_db:dcs_converter.view_converter_convert_form
+msgid "Here is the converted file:"
+msgstr "Hier ist die konvertierte Datei:"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_id
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_converter_id
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_id
+msgid "ID"
+msgstr "ID"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "JPG"
+msgstr "JPG"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "LATEX"
+msgstr "LATEX"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert___last_update
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_converter___last_update
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store___last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_write_uid
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert durch"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_write_date
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "MEDIAWIKI"
+msgstr "MEDIAWIKI"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "MET"
+msgstr "MET"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_name
+msgid "Name"
+msgstr "Name"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "ODD"
+msgstr "ODD"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "ODG"
+msgstr "ODG"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "ODP"
+msgstr "ODP"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "ODS"
+msgstr "ODS"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "ODT"
+msgstr "ODT"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "OOXML"
+msgstr "OOXML"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "OTG"
+msgstr "OTG"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "OTP"
+msgstr "OTP"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "OTS"
+msgstr "OTS"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "OTT"
+msgstr "OTT"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PBM"
+msgstr "PBM"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PCT"
+msgstr "PCT"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PDB"
+msgstr "PDB"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PDF"
+msgstr "PDF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PGM"
+msgstr "PGM"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PNG"
+msgstr "PNG"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "POT"
+msgstr "POT"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "POTM"
+msgstr "POTM"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PPM"
+msgstr "PPM"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PPS"
+msgstr "PPS"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PPT"
+msgstr "PPT"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PPTX"
+msgstr "PPTX"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PSW"
+msgstr "PSW"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PWP"
+msgstr "PWP"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "PXL"
+msgstr "PXL"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "RAS"
+msgstr "RAS"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "RTF"
+msgstr "RTF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDA"
+msgstr "SDA"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDC"
+msgstr "SDC"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDC3"
+msgstr "SDC3"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDC4"
+msgstr "SDC4"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDD"
+msgstr "SDD"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDD3"
+msgstr "SDD3"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDD4"
+msgstr "SDD4"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDW"
+msgstr "SDW"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDW3"
+msgstr "SDW3"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SDW4"
+msgstr "SDW4"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SLK"
+msgstr "SLK"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "STC"
+msgstr "STC"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "STD"
+msgstr "STD"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "STI"
+msgstr "STI"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "STW"
+msgstr "STW"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SVG"
+msgstr "SVG"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SVM"
+msgstr "SVM"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SWF"
+msgstr "SWF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SXC"
+msgstr "SXC"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SXD"
+msgstr "SXD"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SXD3"
+msgstr "SXD3"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SXD5"
+msgstr "SXD5"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SXI"
+msgstr "SXI"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "SXW"
+msgstr "SXW"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_state
+msgid "State"
+msgstr "Status"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "TEXT"
+msgstr "TEXT"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "TIFF"
+msgstr "TIFF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "TXT"
+msgstr "TXT"
+
+#. module: dcs_converter
+#: model:ir.ui.view,arch_db:dcs_converter.view_converter_convert_form
+msgid ""
+"The file has been successfully converted and can now be used.\n"
+"\t\t\t\t\t\tYou can download the file by clicking on the link below."
+msgstr "Die Datei wurde erfolgreich konvertiert und kann nun verwendet werden. Mit einem Klick auf den angeführten Link kann die Datei heruntergeladen werden."
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_type
+msgid "Type"
+msgstr "Typ"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "UOP"
+msgstr "UOP"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "UOS"
+msgstr "UOS"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "UOT"
+msgstr "UOT"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,type:0
+msgid "URL"
+msgstr "URL"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_convert_input_url
+msgid "Url"
+msgstr "URL"
+
+#. module: dcs_converter
+#: model:ir.model.fields,field_description:dcs_converter.field_dcs_converter_store_used_date
+msgid "Used on"
+msgstr "Used on"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "VOR"
+msgstr "VOR"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "VOR3"
+msgstr "VOR3"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "VOR4"
+msgstr "VOR4"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "VOR5"
+msgstr "VOR5"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "WMF"
+msgstr "WMF"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "WPS"
+msgstr "WPS"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XHTML"
+msgstr "XHTML"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XLS"
+msgstr "XLS"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XLS5"
+msgstr "XLS5"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XLS95"
+msgstr "XLS95"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XLSX"
+msgstr "XLSX"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XLT"
+msgstr "XLT"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XLT5"
+msgstr "XLT5"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XLT95"
+msgstr "XLT95"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XPM"
+msgstr "XPM"
+
+#. module: dcs_converter
+#: selection:dcs_converter.convert,format:0
+msgid "XPMBIB"
+msgstr "XPMBIB"
+
+#. module: dcs_converter
+#: model:ir.model,name:dcs_converter.model_ir_autovacuum
+msgid "ir.autovacuum"
+msgstr "ir.autovacuum"
+
+#. module: dcs_converter
+#: model:ir.model,name:dcs_converter.model_dcs_converter_convert
+msgid "dcs_converter.convert"
+msgstr "dcs_converter.convert"
