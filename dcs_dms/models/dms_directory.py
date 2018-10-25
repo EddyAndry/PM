@@ -5,7 +5,7 @@ import json
 import base64
 import logging
 
-from odoo import models, api, fields, tools
+from odoo import models, api, fields, tools, _
 from odoo.exceptions import ValidationError
 
 _logger = logging.getLogger(__name__)
@@ -388,22 +388,22 @@ class Directory(models.Model):
     def _check_settings(self):
         for record in self:
             if record.is_root_directory and not record.settings:
-                raise ValidationError("A root directory has to have a settings object.")
+                raise ValidationError(_("A root directory has to have a settings object."))
             if not record.is_root_directory and not record.parent_directory:
-                raise ValidationError("A directory has to have a parent directory.")
+                raise ValidationError(_("A directory has to have a parent directory."))
         
     @api.constrains('name')
     def _check_name(self):
         for record in self:
             if not record.check_name(self.name):
-                raise ValidationError("The directory name is invalid.")
+                raise ValidationError(_("The directory name is invalid."))
             if record.is_root_directory:
                 childs = record.sudo().settings.root_directories.mapped(lambda rec: [rec.id, rec.name])
             else:
                 childs = record.sudo().parent_directory.child_directories.mapped(lambda rec: [rec.id, rec.name])
             duplicates = [rec for rec in childs if rec[1] == record.name and rec[0] != record.id]
             if duplicates:
-                raise ValidationError("A directory with the same name already exists.")
+                raise ValidationError(_("A directory with the same name already exists."))
     
     @api.constrains('parent_directory')
     def _check_directory_access(self):
