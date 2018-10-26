@@ -23,7 +23,14 @@
         "dcs_web_preview_audio",
         "dcs_web_preview_image",
         "dcs_web_preview_video",
+<<<<<<< HEAD
         "dcs_base",
+=======
+        "dcs_web_preview_msoffice",
+        "dcs_web_preview_text",
+        "dcs_web_preview_csv",
+        "dcs_web_fields_lobject",
+>>>>>>> 678450360b62475d4cee810b1421d4d80576b854
     ],
     "data": [
         "security/dms_security.xml",

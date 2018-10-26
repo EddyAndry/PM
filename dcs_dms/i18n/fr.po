@@ -1605,3 +1605,27 @@ msgstr "Vous ne pouvez pas éditer ce fichier, il est verrouillé."
 msgid "You can not delete this file, it is locked."
 msgstr "Vous ne pouvez pas supprimer ce fichier, il est verrouillé."
 
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_directory.py:406
+#, python-format
+msgid "A directory with the same name already exists."
+msgstr "Un répertoire du même nom existe déjà."
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_directory.py:399
+#, python-format
+msgid "The directory name is invalid."
+msgstr "Le nom du répertoire est invalide."
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_directory.py:393
+#, python-format
+msgid "A directory has to have a parent directory."
+msgstr "Un répertoire doit avoir un répertoire parent."
+
+#. module: dcs_dms
+#: code:addons/dcs_dms/models/dms_directory.py:391
+#, python-format
+msgid "A root directory has to have a settings object."
+msgstr "Un répertoire racine doit avoir un configuration ."
+
