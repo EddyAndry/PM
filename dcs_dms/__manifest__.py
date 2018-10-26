@@ -23,6 +23,7 @@
         "dcs_web_preview_audio",
         "dcs_web_preview_image",
         "dcs_web_preview_video",
+        "dcs_base",
     ],
     "data": [
         "security/dms_security.xml",

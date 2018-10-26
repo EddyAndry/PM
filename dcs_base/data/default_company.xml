@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+          <record id="dcs_defaul_company" model="res.company">
+            <field name="name">DCS</field>
+						<field name="logo"  type="base64" file="dcs_base/static/src/img/logo_company.png" />
+          </record>
+    </data>
+</odoo>
